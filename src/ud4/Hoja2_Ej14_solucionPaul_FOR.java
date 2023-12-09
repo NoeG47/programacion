@@ -31,7 +31,9 @@ public class Hoja2_Ej14_solucionPaul_FOR {
 	            }
 	            
 	        }
-	        System.out.println("El número no se encuentra en el array");
+	        if (!esNumeroEncontrado) {
+	        	System.out.println("El número no se encuentra en el array");
+	        }
 	        
 	 
 	    
