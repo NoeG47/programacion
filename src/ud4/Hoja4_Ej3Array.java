@@ -1,6 +1,5 @@
 package ud4;
 
-import java.util.Scanner;
 // Que rellene un array con los números pares
 //comprendidos entre 1 y 100 y los
 //muestre en pantalla en orden ascendente

@@ -20,5 +20,6 @@ public class figura3_arbol2_0 {
             }
             System.out.println();
         }
+        scanner.close();
     }
 }

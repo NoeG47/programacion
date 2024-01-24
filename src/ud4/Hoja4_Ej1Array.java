@@ -1,6 +1,6 @@
 package ud4;
 
-import java.util.Scanner;
+
 //Que rellene un array con 100 numeros enteros
 //y los muestre de forma ascendente
 public class Hoja4_Ej1Array {

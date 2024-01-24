@@ -11,10 +11,8 @@ public class NumeroArmstrong_Noe {
 		//Declaro variables
 		int num;
 		String numCadena;
-		int expo;
 		int suma;
-		int armstrong;
-		int cifras;
+
 		System.out.println("Introduce un número de 3 cifras: ");
 		num = entrada.nextInt();
 		//convertir el numero en una cadena

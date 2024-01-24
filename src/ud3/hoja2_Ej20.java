@@ -19,7 +19,7 @@ public class hoja2_Ej20 {
 	                System.out.println("Entrada no válida. Debes ingresar 'S' o 'N'.");
 	            }
 	        } while (letra != 'S');
-
+		scanner.close();
 	}
 
 }
