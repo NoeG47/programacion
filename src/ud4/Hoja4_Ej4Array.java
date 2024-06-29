@@ -40,7 +40,7 @@ public class Hoja4_Ej4Array {
 		}else {
 			System.out.println("La división no se puede realizar");
 		}
-		
+		entrada.close();
 	}
 
 }

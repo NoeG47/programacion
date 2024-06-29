@@ -8,6 +8,7 @@ public class ArrayMayusMinus_Characters {
         Scanner in = new Scanner(System.in);
         System.out.println("Introduce algo");
         String cad = in.nextLine();
+        in.close();
    
         char[] caracteres = new char[cad.length()];
 

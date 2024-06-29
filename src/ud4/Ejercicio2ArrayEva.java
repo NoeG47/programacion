@@ -115,6 +115,7 @@ public class Ejercicio2ArrayEva {
 		}
 		while ((opcion != 'd' && opcion != 'D'));{
 			System.out.println("Has salido");	
-		}	
+		}
+		entrada.close();
 	}
 }

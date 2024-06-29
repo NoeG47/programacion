@@ -12,14 +12,19 @@ public class Ejercicio1_Examen {
 		// TODO Auto-generated method stub
 		Scanner entrada = new Scanner(System.in);
 		int a=0,b=0,c=0, d=0, e=0;
-		System.out.println("Intro un n");
+		System.out.println("Intro un numero de 5 cifras");
 		int num = entrada.nextInt();
+		
 		//verificar si el numero es de 5 cifras
+		//si no es un n de 5 cifras lo vuelve a pedir
+		//usando el bucle while
 		while (num < 10000 || num > 99999) {
 			System.out.println("Intro un n valido de 5 cifras");
 			num = entrada.nextInt();
 			
 		}
+		
+		//descomponer el n en cifra
 		while (num>= 10000) {
 			num = num - 10000;
 			a = a +1;
@@ -45,7 +50,7 @@ public class Ejercicio1_Examen {
 		else {
 			System.out.println("No es capicua");
 		}
-		
+		entrada.close();
 		
 	}
 

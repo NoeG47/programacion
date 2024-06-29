@@ -12,6 +12,7 @@ public class Ejercicio3Examen {
 		int num1 = entrada.nextInt();
 		System.out.println("introduce un numero");
 		int num2 = entrada.nextInt();
+		entrada.close();
 		if ((num1 >= 0 && num1 <=100)&&(num2 >= 0 && num2 <=100)&&(num1 != num2)) {
 			if (num1 < num2) {
 				i = num1;

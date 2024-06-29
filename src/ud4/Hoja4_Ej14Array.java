@@ -35,7 +35,7 @@ public class Hoja4_Ej14Array {
 	        if (!esNumeroEncontrado) {
 	            System.out.println("El número no se encuentra en el array");
 	        }
-	    
+	        entrada.close();
 	}
 
 }

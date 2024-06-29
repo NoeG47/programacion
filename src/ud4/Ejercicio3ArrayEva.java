@@ -46,6 +46,7 @@ public class Ejercicio3ArrayEva {
 			System.out.print(numeros[i]);
 			i++;
 		}
+		entrada.close();
 	}
 
 }

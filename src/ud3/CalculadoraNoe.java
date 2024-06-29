@@ -91,6 +91,7 @@ public class CalculadoraNoe {
 		} while ((opcion != 'a' && opcion != 'A'));{
 		System.out.println("has salido");	
 		}
+		entrada.close();
 	}
 
 }

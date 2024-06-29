@@ -32,6 +32,7 @@ public class EjemploNumeroArmstrong_Solucion1 {
 			System.out.println("No es un número"
 					+" Armstrong");
 		}
+		entrada.close();
 	}
 
 }

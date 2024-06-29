@@ -21,6 +21,9 @@ public class Ejercicio1ArrayEva {
 			System.out.println("Introduce una letra para guardar: ");
 			palabras[i]=entrada.nextLine().charAt(0);
 		}
+		//despues de haber leido la palabra cerramos el 
+		//escaner ya q no vamos a usarlo más
+		entrada.close();
 		//leemos el array
 		for (int i =0; i<tamano; i++) {
 			System.out.print(palabras[i]);
@@ -38,5 +41,6 @@ public class Ejercicio1ArrayEva {
 		for (int i =0; i < tamano; i++) {
 			System.out.print(inverso[i]);
 		}
+		
 	}
 }

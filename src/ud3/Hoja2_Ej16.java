@@ -14,8 +14,11 @@ public class Hoja2_Ej16 {
 		char aste = '*';
 		System.out.println("Introduce un número: ");
 		num = entrada.nextInt();
+		entrada.close();
 		for (i = 0; i < num; i++) {
 			System.out.print(aste);
 		}
+		
 	}
+	
 }

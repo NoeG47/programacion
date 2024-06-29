@@ -16,7 +16,7 @@ public class prueba1 {
 		
 		System.out.println("Introduce el exponente: ");
 		num2 = entrada.nextInt();
-		
+		entrada.close();
 		acum = num1;
 		for ( i = 1; i < num2; i++) {
 			mult = acum * num1;

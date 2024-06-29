@@ -31,6 +31,7 @@ public class Ejercicio4Examen {
 		} while ((letra != 'i')&&(letra != 'p')); {
 			System.out.println("ha acabado");
 		}
+		entrada.close();
 	}
 
 }

@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class Hoja4_Ej9Array {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//habilitamos la lectura por pantalla
 		Scanner entrada=new Scanner(System.in);
 		//Declaramos el primer array
@@ -27,8 +26,9 @@ public class Hoja4_Ej9Array {
 		}
 		//leemos el segundo array
 		for (int i = 0; i <5; i++) {
-			System.out.print(arrayNums2[i] + ",");
+			System.out.print(arrayNums2[i] + ", ");
 		}
+		entrada.close();
 	}
 
 }

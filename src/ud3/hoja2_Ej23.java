@@ -20,17 +20,21 @@ public class hoja2_Ej23 {
 			}
 			else {
 				acum = num;
+				//
 				for (cont = 1; num != 0; cont++) {
 					System.out.println("Introduce un número: ");
 					num=entrada.nextInt();
 					acum = acum + num;
 					
 				}
+				//aqui restamos 1 al contador ya que al introducir
+				//el cero cuenta como un numero 
 				cont = cont - 1;
 				media = acum/cont;
 				System.out.println("la media es " + media);
 			}
 		}
+			entrada.close();
 	}
 
 }

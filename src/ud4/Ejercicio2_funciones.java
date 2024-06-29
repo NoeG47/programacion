@@ -19,7 +19,7 @@ public class Ejercicio2_funciones {
 		double num2 = entrada.nextInt();
 		double resultado1 = media(num1,num2);
 		System.out.println("Tu media es: " + resultado1);
-		
+		entrada.close();
 	}
 	public static int cuadrado(int num) {
 		int base = 2;

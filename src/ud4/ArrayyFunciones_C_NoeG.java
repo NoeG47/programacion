@@ -9,7 +9,6 @@ public class ArrayyFunciones_C_NoeG {
 		final int tam = 5; 
 		double nums [] = new double [tam];
 		double resultado = 0;
-		double numBuscado;
 		//direccion de memoria
 		System.out.println("direccion de memoria" + nums);
 		rellenaArray(nums);
@@ -67,6 +66,7 @@ public class ArrayyFunciones_C_NoeG {
 		else {
 			System.out.println("No se encuentra en el array");
 		}
+		entrada.close();
 	}
 	//Hacer una función principal que lea 5 números por teclado y pruebe los siguiente métodos (no es necesario un menú):
 	
@@ -210,4 +210,5 @@ public class ArrayyFunciones_C_NoeG {
 		}
 		return false;
 	}
+	
 }
